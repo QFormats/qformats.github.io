@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: QFormats
+description: libraries to load various quake related formats written in C++
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://qformats.github.io
+
+search_enabled: false
+color_scheme: "qflight"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  QFormats on github <3:
+    - https://github.com/qformats
