@@ -22,10 +22,20 @@ a:not([class]) {
     text-decoration-color: #2c423f;
 }
 
-.highlighter-rouge {
-    border: 5px solid;
-    border-color: #31343f;
-    border-radius: 14px !important;
+.highlight .n {
+    color: #586e75 !important;
+}
+
+.nf {
+    color: #586e75 !important;
+}
+
+.nb {
+    color: #b58900 !important;
+}
+
+.nv {
+    color: #b58900 !important;
 }
 
 .site-title {
