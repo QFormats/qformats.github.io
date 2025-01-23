@@ -3,6 +3,7 @@ title: libqbsp
 layout: default
 nav_enabled: true
 toc_enabled: false
+has_toc: false
 ---
 
 # LIBQBSP
@@ -15,3 +16,5 @@ bsp files are used directly by the quake engine to render a level. libqbsp provi
 
 * converts coordinates to OpenGL
 * lightmap support (only vanilla base style for now)
+
+![image info](images/hero.png)

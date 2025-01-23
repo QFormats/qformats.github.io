@@ -1,9 +1,28 @@
-$bg-color: #c5cfd9;
+@import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme
+@import "navigation.scss";
+
+$bg-color: #E8E8E8;
+$fg-color: #3b413c;
+
+$bg-sidebar-color: #3b413c;
+$fg-sidebar-color: #E8E8E8;
+
+$link-color: #6C7B77;
+
 $body-background-color: $bg-color;
-$sidebar-color: $bg-color;
-$link-color: #2c4d6b;
-$body-text-color: #1f2830;
-$body-heading-color: #425566;
-$code-background-color: #dde6f0;
+$sidebar-color: $bg-sidebar-color;
+$body-text-color: $fg-color;
+$nav-link-color: $fg-sidebar-color;
+$nav-child-link-color: $fg-sidebar-color;
+$body-heading-color: $fg-color;
+
+$table-background-color: $grey-dk-250;
+$search-background-color: $grey-dk-250;
+$search-result-preview-color: $grey-dk-000;
+
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+
+$feedback-color: darken($sidebar-color, 3%);
 
 $border: 0px solid;

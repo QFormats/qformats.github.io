@@ -2,6 +2,7 @@
 title: installation
 layout: default
 parent: libqbsp
+nav_order: 1
 toc_enabled: false
 ---
 

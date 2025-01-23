@@ -1,0 +1,33 @@
+.nav-list {
+    .nav-list-item {
+        font-size: 1.1rem !important;
+        font-weight: 200;
+
+        &:hover {
+            background-color: transparent !important;
+        }
+
+        .nav-list-link {
+            color: #94D1BE !important;
+        }
+    }
+}
+
+
+hr {
+    background-color: #2c423f;
+}
+
+a:not([class]) {
+    text-decoration-color: #2c423f;
+}
+
+.highlighter-rouge {
+    border: 5px solid;
+    border-color: #31343f;
+    border-radius: 14px !important;
+}
+
+.site-title {
+    color: #9ED5C4 !important;
+}
